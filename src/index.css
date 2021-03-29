@@ -7,4 +7,38 @@
 html,body,#app {
     height: 100%;
     width: 100%;
+    font-size:1rem;
 }
+
+.form-control {
+    outline: none;
+    @apply py-2 px-3 text-black rounded focus:ring-4
+}
+
+.btn {
+    @apply py-2 px-3 rounded cursor-pointer
+}
+
+.btn-sm {
+    @apply py-1 px-2 rounded-sm cursor-pointer text-sm
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
