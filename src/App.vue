@@ -4,9 +4,9 @@
     <DistractionForm @submit="saveDistraction" />
     <span class="mt-10"></span>
     <DistractionList :distractionList="this.distractionList" :oldFirst="this.oldFirst" @toggleSort="handleToggleSort" @clearAll="handleClearAll" @clearOne="handleClearOne" />
-    <div class="absolute bottom-3 right-4" v-if="web">
+    <!-- <div class="absolute bottom-3 right-4" v-if="web">
       Add to Chrome
-    </div>
+    </div> -->
   </div>
 </template>
 

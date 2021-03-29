@@ -1,14 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "__MSG_extName__",
+  "name": "OnTask",
   "version": "0.0.1",
-  "homepage_url": "https://dontdistrakt.me/",
-  "description": "A Vue Browser Extension",
+  "homepage_url": "https://ontask.me/",
+  "description": "Avoid rabbit holes by postponing distractions",
   "default_locale": "en",
-  "permissions": [
-    "<all_urls>",
-    "*://*/*"
-  ],
   "icons": {
     "16": "icons/16.png",
     "32": "icons/32.png",
@@ -21,7 +17,7 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "__MSG_extName__",
+    "default_title": "OnTask",
     "default_icon": {
       "16": "icons/16.png",
       "32": "icons/32.png"
