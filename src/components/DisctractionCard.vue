@@ -54,7 +54,9 @@ export default {
         let month = months[time.getMonth()]
         let day = days[time.getDay()]
 
-        let hour = (time.getHours() < 12) ? time.getHours() : time.getHours() - 12;
+        let hour = (time.getHours() <= 12) ? time.getHours() : time.getHours() - 12;
+        if (hour == 0)
+            hour = 12
         let ampm = (time.getHours() < 12) ? "AM" : "PM"
         let minute = (time.getMinutes() < 10) ? "0" + time.getMinutes() : time.getMinutes()
 
